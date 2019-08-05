@@ -9,8 +9,8 @@ from fastai import *
 from fastai.vision import *
 
 # export_file_url = 'https://www.dropbox.com/s/v6cuuvddq73d1e0/export.pkl?raw=1'
-export_file_url = 'https://drive.google.com/uc?export=download&id=1Rqt9aBdzuOWpM6R8-Ce-zIimb-7BREeP'
-export_file_name = 'resnet50.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1p0AmHUSnAqLZW-7XfRw94Wvf_gHar_m6'
+export_file_name = 'export.pkl'
 
 classes = ['brain', 'intestine', 'kidney', 'liver', 'lungs', 'muscle', 'skin']
 path = Path(__file__).parent
