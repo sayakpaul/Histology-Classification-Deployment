@@ -12,7 +12,7 @@ from fastai.vision import *
 export_file_url = 'https://drive.google.com/uc?export=download&id=1Rqt9aBdzuOWpM6R8-Ce-zIimb-7BREeP'
 export_file_name = 'resnet50.pkl'
 
-classes = ['Bladder', 'Brain', 'Kidney', 'LI', 'Liver', 'Lung', 'SI', 'Skin']
+classes = ['brain', 'intestine', 'kidney', 'liver', 'lungs', 'muscle', 'skin']
 path = Path(__file__).parent
 
 app = Starlette()
